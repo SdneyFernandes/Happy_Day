@@ -1,14 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="styles/main.scss">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <title>#</title>
 </head>
 <body>
-    <h1>Sdney Fernandes</h1>
-    <img src="../images/cupcakes-380178.jpg" alt="">
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="../src/images/bolo-de-aniversario.png" alt="">
+            <p class="hero__text">O dia mais especial para min começa em <br>  <span id="contador"> </span> </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                    <b>Localização</b>
+                        Salvador - Barra - Bahia
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Horario</b>
+                        A partir das 22h
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        23/02/2022
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">Garanta a sua entrada</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--nature" >
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Nature</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aperiam debitis aut facere? Modi, quo accusantium libero explicabo necessitatibus aspernatur eius consequatur nesciunt neque eum id minima commodi. Cumque, ipsum!</p>
+            </div>
+            <img src="./images/nature-3082832_1280.jpg" alt="">
+        </div>
+    </section>
+    <section class="event event--especial event--image-left" >
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Especial</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aperiam debitis aut facere? Modi, quo accusantium libero explicabo necessitatibus aspernatur eius consequatur nesciunt neque eum id minima commodi. Cumque, ipsum!</p>
+            </div>
+            <img src="./images/tree-736885_1280.jpg" alt="">
+        </div>
+    </section>
+    <section class="event event--caminho" >
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Nature</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aperiam debitis aut facere? Modi, quo accusantium libero explicabo necessitatibus aspernatur eius consequatur nesciunt neque eum id minima commodi. Cumque, ipsum!</p>
+            </div>
+            <img src="./images/pier-407252_1280.jpg" alt="">
+        </div>
+    </section>
+    <section class="event event--destino event--image-left" >
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Especial</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aperiam debitis aut facere? Modi, quo accusantium libero explicabo necessitatibus aspernatur eius consequatur nesciunt neque eum id minima commodi. Cumque, ipsum!</p>
+            </div>
+            <img src="./images/tree-736885_1280.jpg" alt="">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
